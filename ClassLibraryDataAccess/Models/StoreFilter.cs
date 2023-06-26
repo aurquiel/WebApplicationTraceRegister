@@ -20,5 +20,6 @@ namespace ClassLibraryDataAccess.Models
         public decimal p_storep_expended_dollar { get; set; }
         public decimal p_storep_total_dollar { get; set; }
         public int p_storep_sta_id { get; set; }
+        public int p_storep_sup_id { get; set; }
     }
 }

@@ -28,7 +28,8 @@ namespace ClassLibraryDataAccess.Data
                     p_storep_payed_dollar = storeFilter.p_storep_payed_dollar,
                     p_storep_expended_dollar = storeFilter.p_storep_expended_dollar,
                     p_storep_total_dollar = storeFilter.p_storep_total_dollar,
-                    p_storep_sta_id = storeFilter.p_storep_sta_id
+                    p_storep_sta_id = storeFilter.p_storep_sta_id,
+                    p_storep_sup_id = storeFilter.p_storep_sup_id
                 },
                 "Default");
         }

@@ -40,8 +40,10 @@
 
         if (response.status == 200) {
             aLink.innerHTML = "SWAGGER (ENABLE)";
+            aLink.href = "void(0)";
         } else {
             aLink.innerHTML = "SWAGGER (DISABLE)";
+            aLink.href = "void(0)";
         }
     }
 
