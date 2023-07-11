@@ -40,8 +40,7 @@ namespace ClassLibraryDataAccess.Data
                     sto_code = store.sto_code,
                     sto_sup_id = store.sto_sup_id,
                     sto_audit_id = store.sto_audit_id,
-                    sto_audit_date = store.sto_audit_date,
-                    sto_audit_delete = store.sto_audit_delete
+                    sto_audit_date = store.sto_audit_date
                 },
                 "Default")).FirstOrDefault();
         }
